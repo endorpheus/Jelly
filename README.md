@@ -2,11 +2,12 @@
 
 ## A Frameless, Transluscent, Modern, Draggable Dialog for PySide6
 
-<img src="./icons/purple_vial_lg.png" alt="Jelly logo"></img>
+<img src="./icons/purple_vial_lg.png" alt="Jelly logo" align="right"></img>
 
 
-This repository contains the source code for `Jelly`, a customizable, frameless dialog widget built with PySide6. 
-There is also a fully functional example app called **QRJelly.py** you can have a look at for an idea on what it looks like.
+This repository contains the source code for `Jelly`, a customizable, frameless dialog widget built with PySide6.
+<br><br> 
+There is also a **fully functional** example app called **QRJelly.py** you can have a look at for an idea on what it looks like.
 
 ### Features
 
@@ -27,9 +28,13 @@ There is also a fully functional example app called **QRJelly.py** you can have 
 
 ### Usage
 
-1. Clone this repository or download the files. 
-2. Install PySide6 using `pip install PySide6`.
-3. Import the `Jelly` class in your Python script:
+* Clone this repository or download the files. 
+* Install requirements: (if I've missed anything let me know)
+    ```bash
+    pip install -r requirements.txt
+    ```
+*Python is not included in the requirements file. You can get that from your repository via your package manager.*
+* Import the `Jelly` class in your Python script:
 
 ```python
 from Jelly import Jelly
@@ -53,16 +58,17 @@ The `Jelly` class uses a CSS stylesheet to define its appearance. You can modify
 ### TODO
 
 Jelly, for me, was just a different way of thinking about dialog windows. I was daydreaming about it one afternoon and said, "Why not see what it looks and feels like."
-<br>
+<br><br>
 So, I've been working on this class as I get time, and have a few ideas for geometry tweaks. Also, something I miss, a basic title. Not neccessarily a bar, but something that resembles a standard title, but cooler. Possibly the missing green button that I simply didn't need on one of my other projects.  Might throw that back in there, too.
 
 ### Contributions
 
 Clearly this class is a wee baby. But I see potential for it.
-<br>
+<br><br>
 I don't typically collaborate, and have little experience with it on here, except with an old friend Robogod. But I'm not opposed to it if you have any noteworthy ideas.
 
 ### Thanks!
 
-Ryon Shane Hall
-ryonshanehall.com
+<p>Ryon Shane Hall</p>  
+
+<a href="http://ryonshanehall.com" alt="RSH Homepage">my website</a>
